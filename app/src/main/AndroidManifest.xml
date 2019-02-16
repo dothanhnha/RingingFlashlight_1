@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bluepea.ringingflashlight">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true">
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/HomeTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InComingCallActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/InComingCallTheme" />
+        <activity
+            android:name=".InComingSMSActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/InComingSMSTheme" />
+        <activity
+            android:name=".NotificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NotificationTheme">
+
+
+        </activity>
+        <activity
+            android:name=".AddMoreAppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NotificationTheme">
+
+
+        </activity>
+        <activity
+            android:name=".AdvancedSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AdvancedSettingTheme">
+        </activity>
+        <service android:enabled="true" android:name=".BackgroundService" />
+
+        <service android:name=".NotifListenerService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+</manifest>

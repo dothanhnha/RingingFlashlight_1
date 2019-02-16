@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="HomeTheme" parent="AppTheme">
+
+    </style>
+
+    <style name="InComingCallTheme" parent="AppTheme">
+
+    </style>
+
+    <style name="InComingSMSTheme" parent="AppTheme">
+
+    </style>
+
+    <style name="NotificationTheme" parent="AppTheme">
+
+    </style>
+
+    <style name="AdvancedSettingTheme" parent="AppTheme">
+
+    </style>
+
+    <style name="DialogAccessListenerNotif" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogDontHaveCam" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+
+
+</resources>

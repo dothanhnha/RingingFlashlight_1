@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="statusBarHome">#a79e65</color>
+    <color name="navigationBarHome">#f0ebc9</color>
+    <color name="mainHome">#e2d893</color>
+
+    <color name="statusInComingCall">#0072f5</color>
+    <color name="navigationBarIncomingCall">#d9eefd</color>
+    <color name="mainInComingCall">#3fa9f5</color>
+
+    <color name="statusInComingSMS">#c1272d</color>
+    <color name="navigationBarIncomingSMS">#fabbbe</color>
+    <color name="mainInComingSMS">#ed1c24</color>
+
+    <color name="statusNotification">#009245</color>
+    <color name="navigationBarNotification">#bce4a1</color>
+    <color name="mainNotification">#7ac943</color>
+
+    <color name="statusAdvancedSetting">#f15a24</color>
+    <color name="navigationBarAdvancedSetting">#ff931e</color>
+    <color name="mainAdvancedSetting">#ff931e</color>
+
+
+</resources>

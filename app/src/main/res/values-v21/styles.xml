@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="HomeTheme" parent="AppTheme">
+        <!--top-->
+        <item name="android:colorPrimaryDark">@color/statusBarHome</item>
+        <!--bottom-->
+        <item name="android:navigationBarColor">@color/navigationBarHome</item>
+        <!--seekbar-->
+        <item name="android:colorControlActivated">@color/statusBarHome</item>
+    </style>
+
+    <style name="InComingCallTheme" parent="AppTheme">
+        <item name="android:colorPrimaryDark">@color/statusInComingCall</item>
+        <item name="android:navigationBarColor">@color/navigationBarIncomingCall</item>
+        <!--seekbar-->
+        <item name="android:colorControlActivated">@color/mainInComingCall</item>
+
+    </style>
+
+    <style name="InComingSMSTheme" parent="AppTheme">
+        <item name="android:colorPrimaryDark">@color/statusInComingSMS</item>
+        <item name="android:navigationBarColor">@color/navigationBarIncomingSMS</item>
+        <!--seekbar-->
+        <item name="android:colorControlActivated">@color/mainInComingSMS</item>
+
+    </style>
+
+    <style name="NotificationTheme" parent="AppTheme">
+        <item name="android:colorPrimaryDark">@color/statusNotification</item>
+        <item name="android:navigationBarColor">@color/navigationBarNotification</item>
+        <!--seekbar-->
+        <item name="android:colorControlActivated">@color/mainNotification</item>
+    </style>
+
+    <style name="AdvancedSettingTheme" parent="AppTheme">
+        <item name="android:colorPrimaryDark">@color/statusAdvancedSetting</item>
+        <item name="android:navigationBarColor">@color/navigationBarAdvancedSetting</item>
+        <!--seekbar-->
+        <item name="android:colorControlActivated">@color/mainAdvancedSetting</item>
+    </style>
+
+    <style name="DialogAccessListenerNotif" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogDontHaveCam" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <!--<style name="BarTest" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+</resources>
